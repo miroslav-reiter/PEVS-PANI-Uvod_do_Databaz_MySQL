@@ -31,7 +31,12 @@
 [YouTube kanál IT Academy](https://www.youtube.com/c/IT-AcademySK)
 
 ## 🥇 Podmienky na absolvovanie predmetu
-* **60 bodov** formou **tímovej práce** v podobe **semestrálneho projektu**, 10x10 bodov -> 1 bod = 1 % zo 48 bodov
+* **50 bodov** formou **tímovej práce** v podobe **semestrálneho projektu**
   * **Aktívna účasť** 12 bodov, (v prípade neospravedlnenej neúčasti alebo nepripravenosti na cvičenie (seminár) strata 10%)
-* **40 bodov** záverečné hodnotenie
-  *  Skúška – prezenčne v škole, test v Microsoft Teams alebo Google Forms
+* **20 bodov** Získanie **SQL certifikácie** - Odovzdanie certifikátu do Microsoft Teams
+  * [Certifikát CodeCademy  Learn SQL - Zadarmo](https://www.codecademy.com/learn/learn-sql)
+  * [Certifikát SoloLearn Introduction to SQL - Trial 15 dní, vybrané časti Zdarma](https://www.sololearn.com/learn/courses/sql-introduction?location=1)
+  * [Google Digital Garage SQL for Data Analysis - Zadarmo](https://learndigital.withgoogle.com/digitalgarage/course/sql-for-data-analysis)
+  * Okrem certifikátov získaných bezplatne je možné akceptovať aj certifikáty a certifikácie z platených komerčných kurzov (Globálne aj Lokálne)
+* **30 bodov** záverečné hodnotenie
+  *  Skúška – prezenčne v škole, test v Microsoft Teams alebo Google Forms - Teoretická a Praktická časť z jazyka SQL
