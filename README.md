@@ -3,7 +3,7 @@
 * Prednášky a cvičnia: Úvod do Databáz 
 * Paneurópska vysoká škola v Bratislave Fakulta Informatiky PEVŠ IT 2023
 * Prednášajúci: PhDr. Ing. Mgr. et Mgr. et Mgr. et Mgr. Miroslav Reiter, DiS., MBA, MPA, MSC, DBA, Ing. Paed. IGIP 
-* Kontakt: miroslav.reiter@it-academy.sk | miroslav.reiter@fm.uniba.sk 
+* Kontakt: miroslav.reiter@it-academy.sk | miroslav.reiter@paneurouni.com
 * Úroveň: začiatočník/mierne pokročilý
 * Odporúčané kolaboračné nástroje na prácu v tíme: Mural, Jamboard, Miro, Slack, Microsoft Word a PowerPoint v OneDrive, Google Workspace
 
@@ -44,7 +44,19 @@
 * **30 bodov** záverečné hodnotenie
   *  Skúška – prezenčne v škole, test v Microsoft Teams alebo Google Forms - Teoretická a Praktická časť z jazyka SQL
   
-  
+# 📹 Video Prezentácia (Obhajoba Projektu)
+* Je povinná časť tímovového semestrálneho projektu.
+* Berte to ako priateľský rozhovor s potenciálnym technologickým investorom alebo zákazníkom, ktorý je technologicky orientovaný. Video slúži ako vaša príprava na prezenčnú obhajobu projektu.
+* Každý člen tímu vysvetľuje svoju časť, ktorú mal na starosti. V prípade, že použijete súbory a zdrojové kódy z internetu je povinné uvádzať všetky použité zdroje. Študent musí rozumieť každému riadku daného kódu a orientovať sa v ňom.
+
+Video ma odpovedať na otázky: 
+1. Ako funguje vaša databáza, tabuľky a dopyty? 
+2. Aká je biznis logika vašej databázy?
+3. Aká je architektúra databázy (štruktúra tabuliek, normalizácia)?
+4. Ktoré dopyty sú najpoužívanejšie a prečo?
+5. Čo ste sa pri tom naučili? 
+6. Čo vám robilo problémy (vrásky na tvári)? Ako ste sa s tým vysporiadali?
+
 ## 📰 Odporúčane zdroje, knihy, príprava na skúšku
 ### 📚 Základné knihy:
 1. ELMASRI, R. -- NAVATHE, S B. Fundamentals of database systems. 5. vyd. Boston: Pearson Addison Wesley, 2007. 1123 s. Pearson International edition. ISBN 0-321-41506-X.
