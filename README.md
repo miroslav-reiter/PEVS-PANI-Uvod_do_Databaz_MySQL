@@ -6,6 +6,7 @@
 * Kontakt: miroslav.reiter@it-academy.sk | miroslav.reiter@paneurouni.com
 * Úroveň: začiatočník/mierne pokročilý
 * Odporúčané kolaboračné nástroje na prácu v tíme: Mural, Jamboard, Miro, Slack, Microsoft Word a PowerPoint v OneDrive, Google Workspace
+* Termín odovzdania certifikátu aj projektu: **23.04.2023**
 
 ## 🔥 Sylabus/Čo nás čaká a neminie...
 
