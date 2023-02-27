@@ -58,7 +58,7 @@ Video ma odpovedať na otázky:
 5. Čo ste sa pri tom naučili? 
 6. Čo vám robilo problémy (vrásky na tvári)? Ako ste sa s tým vysporiadali?
 
-## Zadania k projektom (budú pridelené na prednáške 11.3.2023)
+## 🌟 Zadania k projektom (budú pridelené na prednáške 11.3.2023)
 * Databáza by mala byť navrhnutá pre 3 rôzne role/typy používateľov napr. admin, power/super user, bežný používateľ (user)
 * Celkovo bude mať aplikácia aspoň 6 vytvorených používateľov s príslušnými rolami
 * Databáza bude obsahovať minimálne 7-8 tabuliek s príslušnými polimia, ktoré budú mať adekvatné dátové typy a rozsahy
