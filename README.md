@@ -59,16 +59,16 @@ Video ma odpovedať na otázky:
 6. Čo vám robilo problémy (vrásky na tvári)? Ako ste sa s tým vysporiadali?
 
 ## 🌟 Zadania k projektom (budú pridelené na prednáške 11.3.2023)
-* Databáza by mala byť navrhnutá pre 3 rôzne role/typy používateľov napr. admin, power/super user, bežný používateľ (user)
-* Celkovo bude mať aplikácia aspoň 6 vytvorených používateľov s príslušnými rolami
-* Databáza bude obsahovať minimálne 7-8 tabuliek s príslušnými polimia, ktoré budú mať adekvatné dátové typy a rozsahy
-* Databáza bude obsahovať minimálne 3 pohľady (Views), ktoré majú zmysel pre dané zadanie
-* Databáza bude obsahovať minimálne 10 dopytov s využitím klauzúl jazyka SQL (where, like, group by, order by, limit, distinct, having, in, not in, inner join)
-* Databáza bude normalizovaná minimálne v 3NF, bonusové body sú za 4NF, 5NF a BCNF
-* Hlavné tabuľky v databáze bude naplnené dummy dátami s aspoň 100 záznamami
-* Vytvoriť indexy k dôležitým stĺpcom, ktoré sa používajú pri selectoch
-* Súčasťou dokumentácie bude entitno-relačný diagram (ERD) aj fyzický diagram
-* Bonus: vytvorenie triggra alebo procedúry
+1. Databáza by mala byť navrhnutá pre 3 rôzne role/typy používateľov napr. admin, power/super user, bežný používateľ (user)
+1. Celkovo bude mať aplikácia aspoň 6 vytvorených používateľov s príslušnými rolami
+1. Databáza bude obsahovať minimálne 7-8 tabuliek s príslušnými polimia, ktoré budú mať adekvatné dátové typy a rozsahy
+1. Databáza bude obsahovať minimálne 3 pohľady (Views), ktoré majú zmysel pre dané zadanie
+1. Databáza bude obsahovať minimálne 10 dopytov s využitím klauzúl jazyka SQL (where, like, group by, order by, limit, distinct, having, in, not in, inner join)
+1. Databáza bude normalizovaná minimálne v 3NF, **bonusové body** sú za 4NF, 5NF a BCNF
+1. Hlavné tabuľky v databáze bude naplnené dummy dátami s aspoň 100 záznamami
+1. Vytvoriť indexy k dôležitým stĺpcom, ktoré sa používajú pri selectoch
+1. Súčasťou dokumentácie bude entitno-relačný diagram (ERD) aj fyzický diagram
+1. **Bonus:** vytvorenie triggra alebo procedúry
 
 ### 🗄️ 1. Podnikový archív
 Ste archivár písomnosti vo veľkom podniku. Vypracujte informačný systém archívu v podniku, ktorý si archivuje samostatne svoje písomne dokumenty. Na uschovanie dokumentov sú archívne miesta rozdelené do tzv. sekcii s počtom x (x = napríklad 20), ktoré presne identifikuje poličku a sekciu, kam bol uložený dokument.  U každého prijatého dokumentu sa zaznamená druh dokladu (písomnosť, obrazový materiál, video, DVD disk, atď.) a referent, ktorý odovzdal uvedený dokument a je za neho zodpovedný. U písomných dokumentov evidujte druh tohto dokumentu (mzdový list, hodnotenie zamestnanca, doklad s porady, objednávky, ponuky, marketingové materiály, prospekty, faktúry, colné doklady, prepravné doklady, atď.). Každý prijatý dokument dostane svoje jednoznačné identifikačné číslo zahrňujúce dátum prijatia, kód dokumentu a kód referenta. Sledujte si evidenciu podľa umiestnenia dokladov druhu dokladov a referentov, ktorý doklad uložili. Váš informačno-databázový systém musí rýchle určiť umiestnenia dokumentu keď dostanete k dispozícii druh dokumentu, mesiac uloženia a názov referenta.
