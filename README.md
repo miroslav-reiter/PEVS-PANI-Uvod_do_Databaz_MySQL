@@ -1,6 +1,6 @@
 # 🛢️ Úvod do Databáz (PEVS-PANI) 
 
-* Prednášky a cvičnia: Úvod do Databáz 
+* Prednášky a cvičenia: Úvod do Databáz 
 * Paneurópska vysoká škola v Bratislave Fakulta Informatiky PEVŠ IT 2023
 * Prednášajúci: PhDr. Ing. Mgr. et Mgr. et Mgr. et Mgr. Miroslav Reiter, DiS., MBA, MPA, MSC, DBA, Ing. Paed. IGIP 
 * Kontakt: miroslav.reiter@it-academy.sk | miroslav.reiter@paneurouni.com
