@@ -58,6 +58,30 @@ Video ma odpovedať na otázky:
 5. Čo ste sa pri tom naučili? 
 6. Čo vám robilo problémy (vrásky na tvári)? Ako ste sa s tým vysporiadali?
 
+## Zadania k projektom (budú pridelené na prednáške 11.3.2023)
+* Databáza by mala byť navrhnutá pre 3 rôzne role/typy používateľov napr. admin, power/super user, bežný používateľ (user)
+* Celkovo bude mať aplikácia aspoň 6 vytvorených používateľov s príslušnými rolami
+* Databáza bude obsahovať minimálne 7-8 tabuliek s príslušnými polimia, ktoré budú mať adekvatné dátové typy a rozsahy
+* Databáza bude obsahovať minimálne 3 pohľady (Views), ktoré majú zmysel pre dané zadanie
+* Databáza bude obsahovať minimálne 10 dopytov s využitím klauzúl jazyka SQL (where, like, group by, order by, limit, distinct, having, in, not in, inner join)
+* Databáza bude normalizovaná minimálne v 3NF, bonusové body sú za 4NF, 5NF a BCNF
+* Hlavné tabuľky v databáze bude naplnené dummy dátami s aspoň 100 záznamami
+* Vytvoriť indexy k dôležitým stĺpcom, ktoré sa používajú pri selectoch
+* Súčasťou dokumentácie bude entitno-relačný diagram (ERD) aj fyzický diagram
+* Bonus: vytvorenie triggra alebo procedúry
+
+### 🗄️ 1. Podnikový archív
+Ste archivár písomnosti vo veľkom podniku. Vypracujte informačný systém archívu v podniku, ktorý si archivuje samostatne svoje písomne dokumenty. Na uschovanie dokumentov sú archívne miesta rozdelené do tzv. sekcii s počtom x (x = napríklad 20), ktoré presne identifikuje poličku a sekciu, kam bol uložený dokument.  U každého prijatého dokumentu sa zaznamená druh dokladu (písomnosť, obrazový materiál, video, DVD disk, atď.) a referent, ktorý odovzdal uvedený dokument a je za neho zodpovedný. U písomných dokumentov evidujte druh tohto dokumentu (mzdový list, hodnotenie zamestnanca, doklad s porady, objednávky, ponuky, marketingové materiály, prospekty, faktúry, colné doklady, prepravné doklady, atď.). Každý prijatý dokument dostane svoje jednoznačné identifikačné číslo zahrňujúce dátum prijatia, kód dokumentu a kód referenta. Sledujte si evidenciu podľa umiestnenia dokladov druhu dokladov a referentov, ktorý doklad uložili. Váš informačno-databázový systém musí rýchle určiť umiestnenia dokumentu keď dostanete k dispozícii druh dokumentu, mesiac uloženia a názov referenta.
+
+### 💰 2. Zmenáreň peňazí
+Otvorili ste si svoju vlastnú zmenáreň peňazí. Vytvorte informačno-databázový systém  tejto malej zmenárne  finančných prostriedkov, ktorá. udržuje v pokladni stálu hotovosť viacerých valutových prostriedkov (Eurá, české koruny, maďarské forinty, Eura, USD, poľské zloty, atď.) a podľa aktuálneho kurzového lístku NBS (Národnej Banky Slovenska) ich záujemcov. Pri predaji si inkasujte poplatok v slovenských korunách (napr. 0,1% s hodnoty predaja). Vo vytvorenom informačno-databázovom systéme zaznamenávate si každý nákup – meno nákupcu, číslo jeho pasu (OP), dátum a čas nákupu, hodnota nákup. Každý deň pri skončení pracovnej doby zobrazte si evidenciu predaja valút, stav pokladne, Váš zisk, atď.
+
+### 💵 3. Sledovanie nákladov
+Ste pracovník ekonomického oddelenia veľkej spoločnosti, ktorý má na starosti sledovanie režijných nákladov. Vytvorte databázový systém na ich sledovanie. V spoločnosti majú jednotliví pracovníci pridelené služobné automobily a služobné mobily. Zamestnanci cestujú na pracovné cesty aj mimo Slovenska. Okrem toho majú nárok na preplatenie nákladov pri rokovaní  s obchodnými partnermi (obedy, večere, drobné darčeky, atď.). Zaznamenajte cenu za benzín prejazdený za mesiac, cenu hovorov, a cenu služobných nákladov s partnermi. Sledujte celkové režijné náklady spoločnosti, náklady na pracovníka, na služobné auto a služobný mobil.
+
+### 💊 4. Lekáreň
+Ste zamestnancom lokálnej slovenskej lekárne, ktorá ma na starosti predaj liekov, výživových doplnkov a zdravotníckych potrieb pre individuálnych zákazníkov (pacientov) ale aj pre podniky. Pacientom prepláca časť nákladov za lieky príslušná poisťovňa, v ktorej sú poistení a na základe lekárskeho predpisu. Lekársky predpis vydáva lekár na základe stanovenej databázy. Predpis môže obsahovať viacero liekov. Každý pacient má svoju zdravotnú kartu v ktorej sú jeho identifikačné a osobné údaje vrátane údajov o jeho zdravotnom stave a stanovených diagnózach. Sledujte štatistiky najpoužívanejších/najpredávanejších liekov, výživových doplnkov a zdravotníckych potrieb. Ďalej sledujte najčastejšie stanovené diagnózy (choroby). Lekáreň má dostupný a zverejnený cenník všetkých svojich produktov.
+
 ## 📰 Odporúčane zdroje, knihy, príprava na skúšku
 ### 📚 Základné knihy:
 1. ELMASRI, R. -- NAVATHE, S B. Fundamentals of database systems. 5. vyd. Boston: Pearson Addison Wesley, 2007. 1123 s. Pearson International edition. ISBN 0-321-41506-X.
