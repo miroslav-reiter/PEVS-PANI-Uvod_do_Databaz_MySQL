@@ -96,4 +96,7 @@ Ste zamestnancom lokálnej slovenskej lekárne, ktorá ma na starosti predaj lie
 1. [MySQL 8.0 Reference Manual Dokumentácia](https://dev.mysql.com/doc/refman/8.0/en/)
 1. [Oracle Blog MySQL](https://dev.mysql.com/blog-archive/)
 1. [Stackoverflow MySQL](https://stackoverflow.com/questions/tagged/mysql)
+1. [Best practices in MySQL](https://www.crayondata.com/top-10-best-practices-in-mysql/)
+1. [SQL Zoo Simulator SQL](https://sqlzoo.net/wiki/SQL_Tutorial)
+1. [HackerRank SQL](https://www.hackerrank.com/domains/sql)
 
