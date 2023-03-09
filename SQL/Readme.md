@@ -50,7 +50,7 @@ ALTER DATABASE moja_databaza CHARACTER SET utf8 COLLATE utf8_bin;
 ![charset-collate](https://user-images.githubusercontent.com/24510943/223992669-2deb51f0-3b2e-4593-b2fc-7102d5e1a376.png)
 
 
-### 👓 Zoznam Všetkých Znakových Sád/Character Sets a Collation (Show)
+### 🤓 Zoznam Všetkých Znakových Sád/Character Sets a Collation (Show)
 ```sql
 SHOW CHARACTER SET;
 ```
@@ -62,8 +62,7 @@ SHOW DATABASES;
 
 ## 🗑️ Vymazanie Databázy (DROP) 
 ```sql
-DROP DATABASE moja_databaza CHARACTER SET utf8 COLLATE utf8_bin;
-
+DROP DATABASE moja_databaza;
 ```
 
 ## 🔌 Pripojenie sa na Databázu MySQL 
@@ -116,7 +115,7 @@ select * from `users`;
 select * from mysql.user;
 ```
 
-### 🔑🤝‍🧑 Mená Používateľov a ich zahashované heslá
+### 🔑🤝‍🧑 Mená Používateľov a ich Zahashované Heslá
 MySQL ukladá zoznam používateľských účtov v tabuľke user databáze mysql. Každému účtu MySQL je možné priradiť heslo, hoci používateľská tabuľka neuchováva verziu hesla vo forme čistého textu (plain test), ale z nej vypočítanú hodnotu hash.
 
 [Dokumentácia Password Hashing in MySQL](https://dev.mysql.com/doc/refman/5.7/en/password-hashing.html)
