@@ -1,70 +1,4 @@
 # 🔥 SQL Skripty
-
-## 🛢️ Vytvorenie Databázy (CREATE)
-```sql
-CREATE DATABASE database_name
-CHARACTER SET character_set_name
-COLLATE collation_name;
-```
-
-### 🔤 Vytvorenie Databázy ak Neexistuje (Ak by Existovala Nevypíše Chybu/Error a Skript pokračuje Ďalej)
-```sql
-CREATE DATABASE moja_testovacia_databaza;
-```
-
-### 🔤 Vytvorenie Databázy bez Nastavenia Collate a Character Set (MySQL dá default latin1_swedish_ci)
-```sql
-CREATE DATABASEIF NOT EXISTS moja_testovacia_databaza;
-```
-
-### 🔢 Vytvorenie Databázy s Nastavením Collate a Character Set
-```sql
-CREATE DATABASE moja_databaza CHARACTER SET utf8 COLLATE utf8_bin;
-
-```
-
-### 🔢 Vytvorenie Databázy s Nastavením Collate a Character Set (Podpora Slovenského Jazyka)
-```sql
-CREATE DATABASE moja_databaza CHARACTER SET utf8 COLLATE utf8_general_ci;
-
-```
-
-### 🔢 Vytvorenie Databázy s Nastavením Collate a Character Set (Podpora Slovenského Jazyka + Emojis + Čínske a Iné Znaky)
-```sql
-CREATE DATABASE moja_databaza CHARACTER SET utf8 COLLATE utf8mb4_slovak_ci;
-
-```
-
-### 🔢 Zmena Databázy a jej Nastavení Collate a Character Set (MySQL dá default latin1_swedish_ci)
-```sql
-ALTER DATABASE database_name
-CHARACTER SET character_set_name
-COLLATE collation_name;
-```
-
-```sql
-ALTER DATABASE moja_databaza CHARACTER SET utf8 COLLATE utf8_bin;
-
-```
-
-![charset-collate](https://user-images.githubusercontent.com/24510943/223992669-2deb51f0-3b2e-4593-b2fc-7102d5e1a376.png)
-
-
-### 🤓 Zoznam Všetkých Znakových Sád/Character Sets a Collation (Show)
-```sql
-SHOW CHARACTER SET;
-```
-
-### 👓 Zoznam Všetkých Databáz (Show)
-```sql
-SHOW DATABASES;
-```
-
-## 🗑️ Vymazanie Databázy (DROP) 
-```sql
-DROP DATABASE moja_databaza;
-```
-
 ## 🔌 Pripojenie sa na Databázu MySQL 
 ### WAMP, LAMP, MAMP, XAMPP
 Username: root  
@@ -76,7 +10,72 @@ Port: 3315
 DB názov: b9e5pkpc  
 Username: b9e5pkpc  
 Password: d9rjb4r3  
-Socket: /tmp/mariadb105.sock  
+Socket: /tmp/mariadb105.sock 
+
+**Collation (Radenie Znakov)** je **súbor pravidiel**, ktoré definujú, ako **porovnávať** a **triediť reťazce znakov**. Každé Collation v MySQL patrí do jednej znakovej sady. Každá sada znakov má aspoň jedno Collation a väčšina má 2 alebo viac Collation. Collation zoraďuje znaky na základe váh. Collation špecifikuje bitové vzory, ktoré predstavujú každý znak v množine údajov.
+
+**Character Set (Znaková sada)** v MySQL je **sada znakov**, **kódovania** a **symbolov**, ktoré **sú v reťazci povolené**. MySQL obsahuje podporu znakovej sady, ktorá umožňuje ukladať údaje pomocou rôznych znakových sád a vykonávať porovnania podľa rôznych Collation. **Predvolená znaková sada** a **Collation servera MySQL** sú **utf8mb4** a **utf8mb4_0900_ai_c** (MySQL 8.0) a **latin1_swedish_ci** (MySQL 5.7). **Znakové sady** sa dajú **špecifikovať** na úrovni **servera**, **databázy**, **tabuľky**, **stĺpca** a **reťazca**.
+
+## 🛢️ Vytvorenie Databázy (CREATE)
+```sql
+CREATE DATABASE database_name
+CHARACTER SET character_set_name
+COLLATE collation_name;
+```
+
+### 🔤 Vytvorenie Databázy bez Nastavenia Collate a Character Set (MySQL dá default latin1_swedish_ci)
+```sql
+CREATE DATABASE moja_testovacia_databaza;
+```
+
+### 🔤 Vytvorenie Databázy ak Neexistuje (Ak by Existovala Nevypíše Chybu/Error a Skript pokračuje Ďalej)
+```sql
+CREATE DATABASE IF NOT EXISTS moja_testovacia_databaza;
+```
+
+### 🔢 Vytvorenie Databázy s Nastavením Collate a Character Set
+```sql
+CREATE DATABASE moja_databaza CHARACTER SET utf8 COLLATE utf8_bin;
+
+```
+
+### 🔢 Vytvorenie Databázy s Nastavením Collate a Character Set (Podpora Slovenského Jazyka)
+```sql
+CREATE DATABASE moja_databaza CHARACTER SET utf8 COLLATE utf8_general_ci;
+```
+
+### 🔣 Vytvorenie Databázy s Nastavením Collate a Character Set (Podpora Slovenského Jazyka + Emojis + Čínske a Iné Znaky)
+```sql
+CREATE DATABASE moja_databaza CHARACTER SET utf8 COLLATE utf8mb4_slovak_ci;
+```
+
+### 🔣 Zmena Databázy a jej Nastavení Collate a Character Set (MySQL dá default latin1_swedish_ci)
+```sql
+ALTER DATABASE database_name
+CHARACTER SET character_set_name
+COLLATE collation_name;
+```
+
+```sql
+ALTER DATABASE moja_databaza CHARACTER SET utf8 COLLATE utf8_bin;
+```
+
+![charset-collate](https://user-images.githubusercontent.com/24510943/223992669-2deb51f0-3b2e-4593-b2fc-7102d5e1a376.png)
+
+### 🤓 Zoznam Všetkých Znakových Sád/Character Sets a Collation (SHOW)
+```sql
+SHOW CHARACTER SET;
+```
+
+### 👓 Zoznam Všetkých Databáz (SHOW)
+```sql
+SHOW DATABASES;
+```
+
+## 🗑️ Vymazanie Databázy (DROP) 
+```sql
+DROP DATABASE moja_databaza;
+```
 
 ## 🚀 Použitie Databázy (USE)
 ```sql
