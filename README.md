@@ -34,7 +34,7 @@
 ## 🥇 Podmienky na absolvovanie predmetu
 * **50 bodov** formou **tímovej práce** v podobe **semestrálneho projektu**
   * V tíme je 1 vedúci (manažér alebo Scrum master), každá skupina si ho demokraticky zvolí alebo sa sám diktátorsky zvolí.)
-  * Dátum a čas odovzdania si študenti a tímy sledujú sami v Microsoft Teams a sú povinní ho rešpektovať. 
+  * Dátum a čas odovzdania si študenti a tímy sledujú sami v Microsoft Teams/UISe a sú povinní ho rešpektovať. 
   * Odovzdávajú SQL súbory/kódy a databázu (dump) spolu so dokumentáciou a modelmi/diagramami  v Microsoft Teams, pri veľkých súboroch odkazy na verejný GitHub repozitár. 
   * Ďalej tím pripraví video (15-20 minút), kde odprezentuje svoje zadanie a DB. Do popisu v miestach odovzdania zašle odkaz na YouTube/Vimeo video. Video musí byť verejne dostupné cez odkaz v popise miesta odovzdania. V prípade nedostupnosti odkazu na video či nefunkčnosti DB sa projekt hodnotí 0 bodmi.
 * **20 bodov** Získanie **SQL certifikácie** - Odovzdanie certifikátu do Microsoft Teams
