@@ -1,0 +1,18 @@
+# Time: 230310 23:58:17
+# User@Host: vita_sk[vita_sk] @  [10.31.37.9]
+# Thread_id: 7479600  Schema: vita_sk  QC_hit: No
+# Query_time: 4.156992  Lock_time: 0.000054  Rows_sent: 0  Rows_examined: 363
+# Rows_affected: 25  Bytes_sent: 54
+use vita_sk;
+SET timestamp=1678510928;
+UPDATE wp_actionscheduler_actions SET claim_id=1407798, last_attempt_gmt='2023-03-11 05:02:04', last_attempt_local='2023-03-11 06:02:04' WHERE claim_id = 0 AND scheduled_date_gmt <= '2023-03-11 05:02:04' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25;
+# Time: 230311  6:40:19
+
+# Time: 230310 23:58:17
+# User@Host: vita_sk[vita_sk] @  [10.31.37.9]
+# Thread_id: 7519431  Schema: vita_sk  QC_hit: No
+# Query_time: 5.449684  Lock_time: 0.000029  Rows_sent: 0  Rows_examined: 357
+# Rows_affected: 25  Bytes_sent: 54
+SET timestamp=1678513219;
+UPDATE wp_actionscheduler_actions SET claim_id=1407978, last_attempt_gmt='2023-03-11 05:40:14', last_attempt_local='2023-03-11 06:40:14' WHERE claim_id = 0 AND scheduled_date_gmt <= '2023-03-11 05:40:14' AND status='pending' ORDER BY attempts ASC, scheduled_date_gmt ASC, action_id ASC LIMIT 25;
+# Time: 230311  6:40:26
