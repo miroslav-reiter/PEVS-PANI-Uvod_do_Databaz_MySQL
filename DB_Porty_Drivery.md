@@ -25,15 +25,15 @@ SID: xe
 Inštalátor: https://www.sqlite.org/download.html  
 Porty: nemá porty  
 
-## Údaje na Testovacie Pripojenie na Databázu
-### MySQL 🐬
+## 🗄️ Údaje na Testovacie Pripojenie na Databázu
+### 🐬 MySQL 
 Hostiteľ [host]: mysql57.r2.websupport.sk  
 Databáza [database/schema]: Kurz_DB_SQL  
 Používateľ [user]: Kurz_DB_SQL  
 Heslo [password]: Buduci_analytik123  
 Port: 3311  
 
-### PostgreSQL 🐘
+### 🐘 PostgreSQL 
 Hostiteľ [host]: postgresql.r2.websupport.sk  
 Databáza [database/schema]: Kurz_VAVA_JDBC  
 Používateľ [user]: Kurz_VAVA_JDBC  
