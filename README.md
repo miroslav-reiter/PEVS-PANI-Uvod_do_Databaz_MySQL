@@ -45,7 +45,7 @@
 * **30 bodov** záverečné hodnotenie
   *  Skúška – prezenčne v škole, test v Microsoft Teams alebo Google Forms - Teoretická a Praktická časť z jazyka SQL
   
-# 📹 Video Prezentácia (Obhajoba Projektu)
+# 📹 Video Prezentácia (Obhajoba Projektu) 
 * Je povinná časť tímovového semestrálneho projektu.
 * Berte to ako priateľský rozhovor s potenciálnym technologickým investorom alebo zákazníkom, ktorý je technologicky orientovaný. Video slúži ako vaša príprava na prezenčnú obhajobu projektu.
 * Každý člen tímu vysvetľuje svoju časť, ktorú mal na starosti. V prípade, že použijete súbory a zdrojové kódy z internetu je povinné uvádzať všetky použité zdroje. Študent musí rozumieť každému riadku daného kódu a orientovať sa v ňom.
