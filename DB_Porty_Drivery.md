@@ -27,15 +27,15 @@ Porty: nemá porty
 
 ## 🗄️ Údaje na Testovacie Pripojenie na Databázu
 ### 🐬 MySQL 
-Hostiteľ [host]: mysql57.r2.websupport.sk  
+**Hostiteľ [host]:** mysql57.r2.websupport.sk  
 Databáza [database/schema]: Kurz_DB_SQL  
-Používateľ [user]: Kurz_DB_SQL  
+**Používateľ [user]:** Kurz_DB_SQL  
 Heslo [password]: Buduci_analytik123  
-Port: 3311  
+**Port:** 3311  
 
 ### 🐘 PostgreSQL 
-Hostiteľ [host]: postgresql.r2.websupport.sk  
+**Hostiteľ [host]:** postgresql.r2.websupport.sk  
 Databáza [database/schema]: Kurz_VAVA_JDBC  
-Používateľ [user]: Kurz_VAVA_JDBC  
+**Používateľ [user]:** Kurz_VAVA_JDBC  
 Heslo [password]: Kurz_java_developeri_2023  
-Port: 5432   
+**Port:** 5432   
