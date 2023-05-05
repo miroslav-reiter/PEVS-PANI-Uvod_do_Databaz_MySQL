@@ -29,6 +29,8 @@ fixným textom
 6. Tvorba systémov zvýrazňovania syntaxe
 7. Tvorba jednoduchších parserov a kompilátorov, resp. ich častí – typicky lexikálna analýza (tokenizácia)
 
+
+## 🔠 Zoznam Regulárnych Výrazov
 | Výraz/Regex  | Vysvetlenie                                 |
 |--------------|---------------------------------------------|
 | x            | znak x                                      |
