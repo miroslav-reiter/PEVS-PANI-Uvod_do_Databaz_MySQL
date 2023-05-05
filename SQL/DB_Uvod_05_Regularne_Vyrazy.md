@@ -11,8 +11,9 @@ Mnoho programovacích jazykov podporuje regulárne výrazy na prácu s reťazcam
 A. Kontrola (**Validácia**), či vstupný text vyhovuje danému regulárnemu výrazu  
 B. Rozdelenie (**Parsovanie/Split/Extrakcia**) vstupného textu na časti, oddelené separátorom, vyhovujúcim danému regulárnemu výrazu  
 C. Vyhľadávanie (**Search**) vo vstupnom texte  
-  - Zistenie pozícií vo vstupnom texte, kde sa nachádzajú výskyty, vyhovujúce danému regulárnemu výrazu
+  - Zistenie pozícií vo vstupnom texte, kde sa nachádzajú výskyty, vyhovujúce danému regulárnemu výrazu  
   - Výber všetkých výskytov, vyhovujúcich danému regulárnemu výrazu (s možnosťou zachytenia fragmentov, zodpovedajúcich uzátvorkovaným skupinám vo výraze)  
+
 D. Manipulácia s textom (**String manipulation**)  
   - Náhrada výskytov, vyhovujúcich danému regulárnemu výrazu; pričom nahrádzať je v praxi možné:
 fixným textom
