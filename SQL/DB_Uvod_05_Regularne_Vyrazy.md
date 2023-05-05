@@ -8,12 +8,12 @@ Mnoho programovacích jazykov podporuje regulárne výrazy na prácu s reťazcam
 (vrátane filtra grep a dávkového editora sed) poskytovaných pôvodne unixovými operačnými systémami, z ktorých sa neskôr ďalej rozšírili, masívne využíva regulárne výrazy.
 
 ## 🛠️ Načo a kde sa používajú Regulárne Výrazy
-A. Kontrola (**Validácia**), či vstupný text vyhovuje danému regulárnemu výrazu
-B. Rozdelenie (**Parsovanie/Split/Extrakcia**) vstupného textu na časti, oddelené separátorom, vyhovujúcim danému regulárnemu výrazu
-C. Vyhľadávanie (**Search**) vo vstupnom texte
+A. Kontrola (**Validácia**), či vstupný text vyhovuje danému regulárnemu výrazu  
+B. Rozdelenie (**Parsovanie/Split/Extrakcia**) vstupného textu na časti, oddelené separátorom, vyhovujúcim danému regulárnemu výrazu  
+C. Vyhľadávanie (**Search**) vo vstupnom texte  
   - Zistenie pozícií vo vstupnom texte, kde sa nachádzajú výskyty, vyhovujúce danému regulárnemu výrazu
-  - Výber všetkých výskytov, vyhovujúcich danému regulárnemu výrazu (s možnosťou zachytenia fragmentov, zodpovedajúcich uzátvorkovaným skupinám vo výraze)
-D. Manipulácia s textom (**String manipulation**)
+  - Výber všetkých výskytov, vyhovujúcich danému regulárnemu výrazu (s možnosťou zachytenia fragmentov, zodpovedajúcich uzátvorkovaným skupinám vo výraze)  
+D. Manipulácia s textom (**String manipulation**)  
   - Náhrada výskytov, vyhovujúcich danému regulárnemu výrazu; pričom nahrádzať je v praxi možné:
 fixným textom
   - Nahrádzacím výrazom, kombinujúcim fixný text s odvolávkami na fragmenty, zachytené uzátvorkovanými skupinami v regulárnom výraze
