@@ -6,9 +6,9 @@ Mnoho programovacích jazykov má väzby na knižnicu SQLite. Vo všeobecnosti s
 Porty: nemá
 
 ## 🛠️Nástroje a Pomôcky
-[Inštalátor SQlite](https://www.sqlite.org/download.html)
-[SQL a Databázový Editor Dbeaver]()
-[Online simulátor](https://sqlite.org/fiddle/index.html)
+[Inštalátor SQlite](https://www.sqlite.org/download.html)  
+[SQL a Databázový Editor Dbeaver](https://dbeaver.io/)  
+[Online simulátor](https://sqlite.org/fiddle/index.html)  
 
 
 ## Zoznam príkazov SQLite shellu
