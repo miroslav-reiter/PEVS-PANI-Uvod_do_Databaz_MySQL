@@ -58,6 +58,15 @@ Video ma odpovedať na otázky:
 5. Čo ste sa pri tom naučili? 
 6. Čo vám robilo problémy (vrásky na tvári)? Ako ste sa s tým vysporiadali?
 
+## 🏆 Ako a Čo hodnotím v odovzdanom Projekte?
+Krátka odpoveď: **Všetko**.
+
+Dlhšia odpoveď:
+1. Splnenie povinných náležitostí.
+1. Obsah, forma a kvalita prezentácie.
+1. Pripravenosť a odprezentovanie/prednes.
+1. Pridaná hodnota a prínosy projektu.
+
 ## 🌟 Zadania k projektom (budú pridelené na prednáške 11.3.2023)
 1. Databáza by mala byť navrhnutá pre 3 rôzne role/typy používateľov napr. admin, power/super user, bežný používateľ (user)
 1. Celkovo bude mať aplikácia aspoň 6 vytvorených používateľov s príslušnými rolami
